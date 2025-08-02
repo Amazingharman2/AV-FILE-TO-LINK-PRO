@@ -6,28 +6,28 @@ from Script import script  # Custom script file with caption & other settings
 # 🚀 Bot Session and Token Information
 SESSION = environ.get('SESSION', 'Webavbot')  # Pyrogram client session name
 
-API_ID = int(environ.get('API_ID', '12300656'))  # Telegram API ID
-API_HASH = environ.get('API_HASH', 'd927c13beaaf5110f5b7c071273')  # Telegram API Hash
-BOT_TOKEN = environ.get('BOT_TOKEN', '672782:AAE3VrD2SewKmu6ytwU4H1vRtfc')  # Telegram Bot Token
+API_ID = int(environ.get('API_ID', '22413321'))  # Telegram API ID
+API_HASH = environ.get('API_HASH', '19dc6a4da93120d1af60afd778559d55')  # Telegram API Hash
+BOT_TOKEN = environ.get('BOT_TOKEN', '8185308603:AAEjqA3Z298U6V_42iL_gKGsRlRysOlccxc')  # Telegram Bot Token
 
 # 👑, Channels & Logs
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1001973960964'))  # File storage channel
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1002110971750'))  # General log channel
-PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1002227216574'))  # Premium user actions log
-VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1002227216574'))  # Verified user actions log
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002028053413"))
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1002623811643'))  # File storage channel
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '--1002623811643'))  # General log channel
+PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1002791389470'))  # Premium user actions log
+VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1002791389470'))  # Verified user actions log
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002791389470"))
 
 # add admin IDs 11111 2222 3333 and add auth channel IDs -100XXX -100XXX -100XXX
-ADMINS = list(map(int, environ.get('ADMINS', '5977931010').split()))  # List of admin user IDs
-AUTH_CHANNEL = list(map(int, environ.get("AUTH_CHANNEL", "-1002102037760 -1002012150170").split()))  # Allowed channels for authorization
+ADMINS = list(map(int, environ.get('ADMINS', '2052400282').split()))  # List of admin user IDs
+AUTH_CHANNEL = list(map(int, environ.get("AUTH_CHANNEL", "-1002122486484 -1002791389470").split()))  # Allowed channels for authorization
 
 # username add without @
-OWNER_USERNAME = environ.get("OWNER_USERNAME", 'BOT_OWNER26')  # Owner's username
-BOT_USERNAME = environ.get("BOT_USERNAME", 'AV_F2L_BOT')  # Bot's username
+OWNER_USERNAME = environ.get("OWNER_USERNAME", 'HARMANXKING')  # Owner's username
+BOT_USERNAME = environ.get("BOT_USERNAME", 'Filetolinkharmanbot')  # Bot's username
 
 # 🔗 Channel & Support Links
-CHANNEL = environ.get('CHANNEL', 'https://t.me/AV_BOTz_UPDATE')  # Updates channel
-SUPPORT = environ.get('SUPPORT', 'https://t.me/AV_SUPPORT_GROUP')  # Support group
+CHANNEL = environ.get('CHANNEL', 'https://t.me/botupdate527')  # Updates channel
+SUPPORT = environ.get('SUPPORT', 'https://t.me/botupdate527')  # Support group
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/')  # Verification guide link
 HOW_TO_OPEN = environ.get('HOW_TO_OPEN', 'https://t.me/')  # File access guide link
 
@@ -47,8 +47,8 @@ SHORTLINK_URL = environ.get('SHORTLINK_URL', 'techvjlink.site')  # Shortener sit
 SHORTLINK_API = environ.get('SHORTLINK_API', 'd73e70a35dc3877fa14afbf51fa8ec312c94780c')  # API key for shortlink
 
 # 💾 MongoDB Connection Information
-DB_URL = environ.get('DATABASE_URI', "mongodb+srv://aman:aman@cluster0p1.mongodb.net/?rites=truity&appName=Cluster0")  # MongoDB connection URI
-DB_NAME = environ.get('DATABASE_NAME', "cluster0")  # MongoDB database name
+DB_URL = environ.get('DATABASE_URI', "mongodb+srv://chpudas:NFD023I82jSGyuGq@cluster1000.kakktkc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1000")  # MongoDB connection URI
+DB_NAME = environ.get('DATABASE_NAME', "cluster1000")  # MongoDB database name
 
 # 📸 all Media (Images)
 QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/6afb4093d5ec5c4176979.jpg')  # QR Code image
